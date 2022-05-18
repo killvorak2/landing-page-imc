@@ -1,0 +1,291 @@
+/* Import das fontes que utilizei */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Koulen&display=swap');
+
+/* Resetando css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Fundo */
+body{
+    background-color: #f6f9f4;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+
+    margin: 0px;
+}
+
+/* Logo IMC */ 
+.logo{
+    width: 160px;
+    height: 100px;
+}
+
+/* Colocando as cores e font em todos os <p> */
+p{
+    margin: 0px 0px 5px 0px;
+    font-family: 'Jura', sans-serif;
+    font-family: 12px;
+    font-weight: 700;
+    color: #241623;
+
+    text-align: center;
+}
+
+/* Div que controla as informações que aparece e <p> / input / button */
+.dados{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* A div peso */
+.primeiro-dado{
+    margin: 10px;
+
+    font-family: 'Jura', sans-serif;
+    font-family: 12px;
+    font-weight: 700;
+
+    bottom: 100px;
+}
+
+/* A div altura */
+.segundo-dado{
+    margin: 10px;
+
+    font-family: 'Jura', sans-serif;
+    font-family: 12px;
+    font-weight: 700;
+}
+
+/* colocando as mesmas informações nós dois botôes Calcular e Limpar */
+button{
+    margin-top: 25px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+
+    width: 80px;
+}
+/* Efeito ao clicar no botão */
+button:hover 
+{
+   background-color: #2b4206;
+   color: #fff;
+}
+
+/* A primeira imagem que aparece ao usuário */
+#local{
+    width: 200px;
+    height: 280px;
+
+    display: block;
+}
+
+/* A segunda imagem que aparece depedendo dos dados que o usuário informa */
+#img{
+
+    width: 200px;
+    height: 280px;
+
+    display:none;
+     
+   animation: test 1s infinite;
+}
+
+/* Efeito de crescer a imagem, um movimento básico para treinar e 
+colocando de forma infinita para parecer os batimentos de um coração*/
+@keyframes test {
+    30%
+    {
+        transform: scale(1.03);
+    }
+    20%
+    {
+        transform: scale(1.02);
+    }
+    10%
+    {
+        transform: scale(1.01);
+    }
+    0%{
+        transform: scale(1);
+    }
+}
+
+/* Inicio Responsive */
+
+/* width: 320px*/
+@media (min-width: 310px) and (max-width:330px){
+
+   .logo{
+
+    width: 90px;
+    height: 60px;
+
+   }
+
+   #local{
+    width: 180px;
+    height: 250px;
+       
+   }
+   #img{
+    width: 180px;
+    height: 250px;
+   }
+
+   body{
+       height: 100vh;
+   }
+   button{
+       margin: 20px 10px 10px 1px;
+       
+   }
+   .dados{
+       margin: 100px 0px 0px 0px;
+   }
+   p{
+       font-size: 20px;
+   }
+
+   #local{
+    width: 250px;
+    height: 320px;
+   }
+   #img{
+    width: 250px;
+    height: 320px;
+   }
+   input{
+       height: 25px;
+       font-size: 16px;
+   }
+
+   button{
+       padding: 5px;
+   }
+    
+}
+/* width: 768px */
+@media (min-width: 750px) and (max-width: 778px) {
+
+    p{
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+
+    .dados{
+        margin: 90px 0px 0px 0px;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    input{
+        height: 25px;
+    }
+    
+    button{
+        
+        padding: 3px;
+        font-size: 14px;
+        margin: 20px 5px 5px 5px;
+    }
+    
+
+}
+
+/* width: 1024px */
+@media (min-width: 1020px) and (max-width:1027px){
+
+    body{
+        height: 100vh;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    .dados{
+        margin: 50px 0px 0px 0px;
+    }
+
+    button{
+        padding: 5px;
+        font-size: 16px;
+        margin: 20px 5px 5px 5px;
+
+    }
+    input{
+        width: 200px;
+        height: 25px;
+    }
+
+}
+
+/* width: 1440 */
+@media (min-width: 1430px) and (max-width: 1450px) {
+
+        .dados{
+            margin: 20px 0px 0px 0px;
+        }
+
+        p{
+            font-size: 22px;
+        }
+
+        #local{
+            width: 240px;
+            height: 300px;
+        }
+
+        #img{
+            width: 240px;
+            height: 300px;
+        }
+        input{
+            height: 30px;
+            font-size: 16px;
+        }
+        button{
+            padding: 8px;
+            font-size: 15px;
+        }
+        
+        .btn{
+            margin: 10px 10px 5px 5px;
+        }
+
+        .limpa{
+            margin: 10px 10px 5px 5px;
+        }
+        
+        .logo{
+            width: 150px;
+            height: 80px;
+        }
+        body{
+            height: 100vh;
+        }
+        
+    }
+    
+/* fim responsive */    
