@@ -9,6 +9,8 @@
   Em <b>CSS</b> foi utilizado o :hover, @keyframes e @media<br> 
    Em <b>JS</b> foi utilizado o .value, setAttribute, style.display
    
+   <b>Site para testar:</b> https://dashing-malabi-db125a.netlify.app/
+   
    Em 320x538 <br>
    ![image](https://user-images.githubusercontent.com/86324962/169142786-6e1feeba-809b-4a0b-af83-97048e4ecdd2.png)
 
