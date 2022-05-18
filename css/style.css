@@ -78,6 +78,8 @@ button{
     font-weight: 900;
     cursor: pointer;
 
+    color: black;
+
     width: 80px;
 }
 /* Efeito ao clicar no botão */
@@ -89,7 +91,7 @@ button:hover
 
 /* A primeira imagem que aparece ao usuário */
 #local{
-    width: 200px;
+    width: 220px;
     height: 280px;
 
     display: block;
@@ -98,7 +100,7 @@ button:hover
 /* A segunda imagem que aparece depedendo dos dados que o usuário informa */
 #img{
 
-    width: 200px;
+    width: 220px;
     height: 280px;
 
     display:none;
@@ -137,46 +139,35 @@ colocando de forma infinita para parecer os batimentos de um coração*/
     height: 60px;
 
    }
-
-   #local{
-    width: 180px;
-    height: 250px;
-       
-   }
-   #img{
-    width: 180px;
-    height: 250px;
-   }
-
-   body{
+   body
+   {
        height: 100vh;
    }
-   button{
-       margin: 20px 10px 10px 1px;
+   button
+   {
+       margin: 10px 10px 10px 1px;
+       padding: 1px;
        
    }
    .dados{
-       margin: 100px 0px 0px 0px;
+       margin: 0px 0px 0px 0px;
    }
    p{
-       font-size: 20px;
+       font-size: 13px;
    }
 
    #local{
-    width: 250px;
-    height: 320px;
+    width: 200px;
+    height: 280px;
    }
    #img{
-    width: 250px;
-    height: 320px;
+    width: 200px;
+    height: 280px;
    }
    input{
-       height: 25px;
-       font-size: 16px;
-   }
-
-   button{
-       padding: 5px;
+       width: 120px;
+       height: 15px;
+       font-size: 12px;
    }
     
 }
@@ -184,7 +175,7 @@ colocando de forma infinita para parecer os batimentos de um coração*/
 @media (min-width: 750px) and (max-width: 778px) {
 
     p{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .logo{
@@ -193,7 +184,7 @@ colocando de forma infinita para parecer os batimentos de um coração*/
     }
 
     .dados{
-        margin: 90px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     body{
@@ -201,7 +192,7 @@ colocando de forma infinita para parecer os batimentos de um coração*/
     }
 
     input{
-        height: 25px;
+        height: 20px;
     }
     
     button{
@@ -210,6 +201,17 @@ colocando de forma infinita para parecer os batimentos de um coração*/
         font-size: 14px;
         margin: 20px 5px 5px 5px;
     }
+    #local
+    {
+        width: 180px;
+        height: 260px; 
+    }
+    #img
+    {
+        width: 180px;
+        height: 260px; 
+    }
+    
     
 
 }
@@ -222,21 +224,26 @@ colocando de forma infinita para parecer os batimentos de um coração*/
     }
 
     p{
-        font-size: 20px;
+        font-size: 16px;
     }
     .dados{
-        margin: 50px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     button{
-        padding: 5px;
-        font-size: 16px;
-        margin: 20px 5px 5px 5px;
+        padding: 2px;
+        font-size: 14px;
+        margin: 15px 5px 5px 5px;
 
     }
     input{
         width: 200px;
-        height: 25px;
+        height: 20px;
+    }
+    .logo
+    {
+        width: 90px;
+        height: 60px;
     }
 
 }
@@ -253,21 +260,22 @@ colocando de forma infinita para parecer os batimentos de um coração*/
         }
 
         #local{
-            width: 240px;
-            height: 300px;
+            width: 300px;
+            height: 380px;
         }
 
         #img{
-            width: 240px;
-            height: 300px;
+            width: 300px;
+            height: 380px;
         }
         input{
             height: 30px;
-            font-size: 16px;
+            font-size: 18px;
         }
         button{
             padding: 8px;
-            font-size: 15px;
+            font-size: 18px;
+            text-align: center;
         }
         
         .btn{

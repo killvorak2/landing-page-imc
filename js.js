@@ -16,51 +16,50 @@ function botao(){
     if(resultado < 17)
     {
         imagem.setAttribute('src', 'img/imc1.png');
-        document.getElementById('img').style.display = 'block' // Imagem do resultado do IMC
-        document.getElementById('local').style.display = 'none' // Imagem apresentada antes do calculco IMC
+        alterar();
     }
     else
     if(resultado >= 17 & resultado <= 18.49)
     {
         imagem.setAttribute('src', 'img/imc2.png');
-        document.getElementById('img').style.display = 'block';
-        document.getElementById('local').style.display = 'none';
+        alterar();
     }
     else
     if(resultado >= 18.5 & resultado <= 24.99)
     {
         imagem.setAttribute('src', 'img/imc3.png');
-        document.getElementById('img').style.display = 'block';
-        document.getElementById('local').style.display = 'none';
+        alterar();
     }
     else
     if(resultado >= 25 & resultado <= 29.99)
     {
         imagem.setAttribute('src', 'img/imc4.png');
-        document.getElementById('img').style.display = 'block';
-        document.getElementById('local').style.display = 'none';
+        alterar();
     }
     else
     if(resultado >= 30 & resultado <= 34.99)
     {
         imagem.setAttribute('src', 'img/imc5.png');
-        document.getElementById('img').style.display = 'block';
-        document.getElementById('local').style.display = 'none';
+        alterar();
     }else
     if(resultado >= 35 & resultado <= 39.99)
     {
         imagem.setAttribute('src', 'img/imc6.png');
-        document.getElementById('img').style.display = 'block';
-        document.getElementById('local').style.display = 'none';
+        alterar();
     }
     else
     if(resultado >= 40)
     {
-        document.getElementById('img').style.display = 'block';
-        document.getElementById('local').style.display = 'none';
         imagem.setAttribute('src', 'img/imc7.png');
+        alterar();
     }
 
+}
+
+function alterar()
+{
+        document.getElementById('img').style.display = 'block';
+        document.getElementById('local').style.display = 'none';
 }
 
 // Na função limpar, eu retiro todos os dados que foi digitado no input peso e altura
