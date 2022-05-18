@@ -1,12 +1,12 @@
 - Qual o foco dessa <b>landing page</b>?💻
-  R: Calcular o IMC 
+  <br>R: Calcular o IMC 
   
   - O que é <b>IMC</b>? 👨‍⚕️
-   R: <br><b>IMC</b> é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+   <br>R: <b>IMC</b> é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
   
   
- Em <b>HTML</b> foi utilizado o form, input e button.
-  Em <b>CSS</b> foi utilizado o :hover, @keyframes e @media 
+ Em <b>HTML</b> foi utilizado o form, input e button.<br>
+  Em <b>CSS</b> foi utilizado o :hover, @keyframes e @media<br> 
    Em <b>JS</b> foi utilizado o .value, setAttribute, style.display
    
    Em 320x538 <br>
