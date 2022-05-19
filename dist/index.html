@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <img class="logo" src="img/logo.png" />
+      <!-- Logo IMC -->
+    </header>
+    <main>
+      <section>
+        <div class="dados">
+          <!-- Div com display: flex e column e center-->
+          <p>Bem-vindo(a) ao teste de <b>IMC</b></p>
+          <img id="local" src="img/aguarde.png" />
+          <!-- Imagem que usuário ver sem digitar nenhuma informação-->
+          <img id="img" src="#" />
+          <!-- imagem que mostrar depois que o usuário colocar informações-->
+          <div class="primeiro-dado">
+            <!-- Div para peso -->
+            <p>Qual o seu peso?</p>
+            <form autocomplete="off">
+              <input type="number" placeholder="Peso" id="peso" />
+              <!-- Input para a informação do Peso -->
+            </form>
+          </div>
+          <div class="segundo-dado">
+            <!-- Div para altura-->
+            <p>Qual a seu altura?</p>
+            <form autocomplete="off">
+              <input type="number" placeholder="Altura" id="altura" />
+              <!-- Input para a informação da Altura-->
+            </form>
+          </div>
+          <div>
+            <button class="btn" onclick="botao()">Calcular</button>
+            <!-- Botão Calcular com função botao()-->
+            <button class="limpa" onclick="limpa()">Limpar</button>
+            <!-- Botão limpar com a função limpa()-->
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="/dist/js/js.js"></script>
+</html>
